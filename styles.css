@@ -139,18 +139,20 @@ h1, h2 {
 
 .button {
     background: var(--black);
-    border: none;
     color: var(--white);
-    padding: 1.2rem 2.5rem;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 1.3rem;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
     cursor: pointer;
     transition: all 0.3s ease;
-    text-transform: uppercase;
-    letter-spacing: 2px;
+    text-decoration: none;
+    display: block;
     width: 100%;
     max-width: 400px;
     margin: 0 auto;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    text-align: center;
 }
 
 .button:hover {
